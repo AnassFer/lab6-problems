@@ -6,19 +6,21 @@ public class BookStack {
     private LinkedList<Book> stack;
 
     public BookStack() {
-
+        stack = new LinkedList<Book>();
     }
 
     public void push(Book book) {
-
+        stack.addFirst(book);
     }
 
     public Book pop() {
         // code here and don't to test if it's empty
+        return stack.removeFirst();
     }
 
     public Book peek() {
         // code here and don't to test if it's empty
+        return stack.getFirst();
     }
 
     public boolean isEmpty() {
