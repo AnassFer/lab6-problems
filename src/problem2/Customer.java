@@ -19,4 +19,10 @@ public class Customer {
         return name;
     }
 
+    public void addTransaction(Double transaction){
+        transactions.add(transaction);
+        double primTransaction = transaction; //unboxing
+        System.out.println("Name : "+name+"\nTransaction amount: "+primTransaction+" MAD.");
+    }
+
 }
