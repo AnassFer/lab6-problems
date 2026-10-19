@@ -17,4 +17,15 @@ public class Novel extends Book{
     public void setPrice(double price) {
         this.price = price;
     }
+
+    @Override
+    public String toString() {
+        return "Novel{" +
+                "price=" + price +
+                ", author='" + author + '\'' +
+                ", nbrPages=" + nbrPages +
+                ", NumRec=" + NumRec +
+                ", title='" + title + '\'' +
+                '}';
+    }
 }

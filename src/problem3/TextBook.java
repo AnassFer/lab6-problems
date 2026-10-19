@@ -16,4 +16,15 @@ public class TextBook extends Book{
     public void setLevel(String level) {
         this.level = level;
     }
+
+    @Override
+    public String toString() {
+        return "TextBook{" +
+                "level='" + level + '\'' +
+                ", author='" + author + '\'' +
+                ", nbrPages=" + nbrPages +
+                ", NumRec=" + NumRec +
+                ", title='" + title + '\'' +
+                '}';
+    }
 }

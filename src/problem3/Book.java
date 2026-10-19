@@ -26,4 +26,14 @@ public class Book extends Document{
     public void setNbrPages(int nbrPages) {
         this.nbrPages = nbrPages;
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "author='" + author + '\'' +
+                ", nbrPages=" + nbrPages +
+                ", title='" + title + '\'' +
+                ", NumRec=" + NumRec +
+                "} " + super.toString();
+    }
 }

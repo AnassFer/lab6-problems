@@ -26,4 +26,14 @@ public class Magazine extends Document{
     public void setMonth(String month) {
         this.month = month;
     }
+
+    @Override
+    public String toString() {
+        return "Magazine{" +
+                "month='" + month + '\'' +
+                ", year=" + year +
+                ", NumRec=" + NumRec +
+                ", title='" + title + '\'' +
+                '}';
+    }
 }

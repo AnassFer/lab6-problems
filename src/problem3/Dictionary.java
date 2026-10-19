@@ -16,4 +16,13 @@ public class Dictionary extends Document{
     public void setLanguage(String language) {
         this.language = language;
     }
+
+    @Override
+    public String toString() {
+        return "Dictionary{" +
+                "language='" + language + '\'' +
+                ", NumRec=" + NumRec +
+                ", title='" + title + '\'' +
+                "} ";
+    }
 }
