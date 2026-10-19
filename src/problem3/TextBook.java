@@ -4,8 +4,8 @@ public class TextBook extends Book{
     public String level;
 
 
-    public TextBook(int numRec, String title, String author, int nbrPages, String level) {
-        super(numRec, title, author, nbrPages);
+    public TextBook( String title, String author, int nbrPages, String level) {
+        super(title, author, nbrPages);
         this.level = level;
     }
 

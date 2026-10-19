@@ -6,7 +6,7 @@ public class Magazine extends Document{
     private int year;
 
     public Magazine(int numRec, String title, String month, int year) {
-        super(numRec, title);
+        super(title);
         this.month = month;
         this.year = year;
     }

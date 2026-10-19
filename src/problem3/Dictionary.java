@@ -5,7 +5,7 @@ public class Dictionary extends Document{
 
 
     public Dictionary(int numRec, String title, String language) {
-        super(numRec, title);
+        super( title);
         this.language = language;
     }
 

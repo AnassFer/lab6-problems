@@ -4,8 +4,8 @@ public class Book extends Document{
     protected String author;
     protected int nbrPages;
 
-    public Book(int numRec, String title, String author, int nbrPages) {
-        super(numRec, title);
+    public Book(String title, String author, int nbrPages) {
+        super( title);
         this.author = author;
         this.nbrPages = nbrPages;
     }
