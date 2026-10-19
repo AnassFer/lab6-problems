@@ -29,7 +29,9 @@ public class BookStack {
 
     public void display() {
         System.out.println("Stack contents (top to bottom):");
-
+        for(Book book : stack) {
+            System.out.println(book);
+        }
     }
 }
 
