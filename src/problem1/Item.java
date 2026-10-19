@@ -1,4 +1,4 @@
-package Problem4;
+package problem1;
 
 public class Item {
     private String name;
