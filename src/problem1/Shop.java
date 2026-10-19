@@ -32,6 +32,7 @@ public class Shop
             }
             System.out.println("Total price of your cart: "+sum);
             System.out.print ("Continue shopping (y/n)? ");
+            scan.nextLine();
             keepShopping = scan.nextLine();
         }
         while (keepShopping.equals("y"));
